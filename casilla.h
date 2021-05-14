@@ -5,6 +5,8 @@ class casilla
 {
 	
 	private:
+		
+		
 		Pieza pieza;
 		
 			

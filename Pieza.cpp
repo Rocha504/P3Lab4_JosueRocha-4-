@@ -43,6 +43,9 @@ using std::endl;
 		if(x=='X'){
 			bando=false;
 		}
+		else{
+			bando=NULL;
+		}
 		this->bando=bando;	
 	}
 
