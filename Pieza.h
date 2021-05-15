@@ -1,11 +1,12 @@
 #ifndef PIEZA_H
 #define PIEZA_H
+#include<string>
 
 class Pieza
 {
 	private:
 		
-		char rep;
+		string rep;
 		bool bando;
 		bool isReina;
 	 

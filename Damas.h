@@ -10,6 +10,13 @@ class Damas
 	public:
 		Damas();
 		~Damas();
+		void printtablero(casilla***);
+		void preparar(casilla***);
+		bool winner(casilla***);
+		bool movimiento(int,int,casilla***);
+		void capturar();
+		void jugar(int,int,casilla***);
+		
 	
 };
 
